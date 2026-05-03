@@ -1,0 +1,7 @@
+torch
+torchvision
+transformers
+gradio
+Pillow
+python-dotenv
+pytest
