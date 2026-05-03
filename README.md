@@ -8,20 +8,6 @@ An application that utilizes multi-modal Generative AI models to search and mine
 
 ![Application GUI](documents/images/example_gui.jpg)
 
----
-
-## Tech Stack
-
-| Skill | Description |
-|-------|-------------|
-| Multi-Modal AI (CLIP) | Leverages OpenAI's CLIP model for joint text-image understanding and semantic similarity computation |
-| Object Detection (YOLOv5) | Real-time object detection to enhance image search with object-aware context |
-| Vision-Language Embeddings | Generates and compares normalized embeddings across text and image modalities |
-| Cosine Similarity Search | Computes vector similarity between prompt embeddings and image embeddings for relevance ranking |
-| Softmax Probability Ranking | Applies softmax normalization across image logits for probability-based result ordering |
-| GPU-Accelerated Inference | Automatic CUDA detection and device placement for accelerated model inference |
-| Image Preprocessing Pipeline | Automated format conversion and normalization for robust multi-format image handling |
-| Interactive AI Web Application | Gradio-based real-time web UI for AI model interaction with upload, search, and export workflows |
 
 ---
 
@@ -112,3 +98,18 @@ pytest tests/ -v
 ## Disclaimer
 
 The mining results might still contain **False Positives** and **False Negatives**. Manual review of the results is strongly recommended.
+
+---
+
+## Tech Stack
+
+| Skill | Description |
+|-------|-------------|
+| Multi-Modal AI (CLIP) | Leverages OpenAI's CLIP model for joint text-image understanding and semantic similarity computation |
+| Object Detection (YOLOv5) | Real-time object detection to enhance image search with object-aware context |
+| Vision-Language Embeddings | Generates and compares normalized embeddings across text and image modalities |
+| Cosine Similarity Search | Computes vector similarity between prompt embeddings and image embeddings for relevance ranking |
+| Softmax Probability Ranking | Applies softmax normalization across image logits for probability-based result ordering |
+| GPU-Accelerated Inference | Automatic CUDA detection and device placement for accelerated model inference |
+| Image Preprocessing Pipeline | Automated format conversion and normalization for robust multi-format image handling |
+| Interactive AI Web Application | Gradio-based real-time web UI for AI model interaction with upload, search, and export workflows |
